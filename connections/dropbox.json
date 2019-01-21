@@ -1,4 +1,8 @@
 {
   "name": "dropbox",
-  "strategy": "dropbox"
+  "strategy": "dropbox",
+  "options": {
+    "client_id": "x",
+    "client_secret": "y"
+  }
 }
