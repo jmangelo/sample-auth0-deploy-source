@@ -1,3 +1,4 @@
 {
-  "name": "up"
+  "name": "up",
+  "strategy": "auth0"
 }
