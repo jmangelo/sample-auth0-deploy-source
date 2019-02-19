@@ -1,0 +1,29 @@
+{
+  "options": {
+    "mfa": {
+      "active": true,
+      "return_enroll_settings": true
+    },
+    "passwordPolicy": "good",
+    "brute_force_protection": true,
+    "strategy_version": 2,
+    "enabledDatabaseCustomization": true,
+    "customScripts": {
+      "login": "function create (username, password, callback) { return callback(new Error('Not Implemented')); }",
+      "create": "function create (user, callback) { return callback(new Error('Not Implemented')); }",
+      "delete": "function remove (id, callback) { return callback(new Error('Not Implemented')); }",
+      "verify": "function verify (email, callback) { return callback(new Error('Not Implemented')); }",
+      "change_password": "function changePassword (email, newPassword, callback) { return callback(new Error('Not Implemented')); }"
+    },
+    "configuration": {
+      "partner_key": "xxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "import_mode": true
+  },
+  "strategy": "auth0",
+  "name": "up",
+  "is_domain_connection": false,
+  "realms": [
+    "up"
+  ]
+}

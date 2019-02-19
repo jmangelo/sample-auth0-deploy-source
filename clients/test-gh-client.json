@@ -1,5 +1,0 @@
-{
-    "name": "test-gh-client",
-    "token_endpoint_auth_method": "none",
-    "oidc_conformant": false
-}
